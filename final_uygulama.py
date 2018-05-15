@@ -16,7 +16,7 @@ class Simonderki() :
 
         # Oyunun renklerini ayarlıyoruz.
         self.ana_renkler = ("#ff0000", "#0066ff", "#00ff00", "#ffff00")
-        self.parlak_renkler = ("#ff9999", "#99c2ff", "#99ff99", "#ffff99")
+        self.parlak_renkler = ("black", "black", "black", "black")
         self.renkler = [color for color in self.ana_renkler]
         self.dikdortgenler = []
 
